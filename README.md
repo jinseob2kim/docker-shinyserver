@@ -13,7 +13,7 @@ Docker images for shiny server with some additional packages
 Original docker image: https://github.com/rocker-org/shiny 
 
 
-I add some useful packaes for shiny: **DT, data.table, ggplot2, devtools, epiDisplay, tableone, svglite, plotROC, pROC, labelled, geepack, lme4**
+I add some useful packaes for shiny: **DT, data.table, ggplot2, devtools, epiDisplay, tableone, svglite, plotROC, pROC, labelled, geepack, lme4, PredictABEL,  shinythemes**
 
 
 ## Image download & run
