@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y -t unstable \
 RUN R -e "install.packages(c('DT', 'data.table', 'ggplot2', 'devtools', 'epiDisplay', 'tableone', 'svglite', 'plotROC', 'pROC', 'labelled', 'geepack', 'lme4'), repos='https://cran.rstudio.com/')" 
 
 ## Private packages by Jinseob Kim
-RUN R -e "devtools::install_github(c("jinseob2kim/jstable", "jinseob2kim/jskm"))
+RUN R -e "devtools::install_github(c('jinseob2kim/jstable', 'jinseob2kim/jskm'))"
 
 
 EXPOSE 3838
