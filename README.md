@@ -27,6 +27,12 @@ docker run --rm -d -p 3838:3838 \
     --name js jinseob2kim/docker-shinyserver
 ```
 
+Setting for figure download in shiny server
+
+```shell
+docker exec js chown -R shiny:shiny /srv/shiny-server
+```
+
 ## Run 
 
 1. Local cumputer : http://localhost/shiny
