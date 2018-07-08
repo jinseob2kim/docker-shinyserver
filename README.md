@@ -24,7 +24,7 @@ Assume Local shinyapps in `/home/js/ShinyApps` & logs in `/home/js/ShinyApps/log
 docker run --rm -d -p 3838:3838 \
     -v /home/js/ShinyApps:/srv/shiny-server/ \
     -v /home/js/ShinyApps/log:/var/log/shiny-server/ \
-    --name js jinseob2kim/docker-datascience
+    --name js jinseob2kim/docker-shinyserver
 ```
 
 ## Run 
